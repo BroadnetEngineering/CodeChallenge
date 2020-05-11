@@ -1,16 +1,24 @@
-# Broadnet Code Challenge
-We use code challenges to assess programming skill. You are free to pick from any of the following code challenges:
+# todo-list-challenge
 
-* [Simple Todo List](https://github.com/BroadnetEngineering/TodoList "Simple Todo List")
-* [Polling Application](https://github.com/BroadnetEngineering/PollingApp "Polling App")
-* [Text File Manipulation](https://github.com/BroadnetEngineering/TextFiles "Text File Manipulation")
-* [Event Application](https://github.com/BroadnetEngineering/EventApp "Event App")
-* Or, do something else of your choosing. Just follow the rules below and submit your PR to this repo!
+## Project setup
+```
+npm install
+```
 
-### Rules
-* No server-side MVC frameworks (unless you make it)
-* Use MySQL if appropriate, include schema necessary to run your code
-* We want to be able to run your submission, not just look at the code
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-### Submissions
-* Submit your code as a PR to the repo of the project you chose
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
