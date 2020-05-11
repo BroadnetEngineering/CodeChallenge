@@ -1,16 +1,21 @@
-# Broadnet Code Challenge
-We use code challenges to assess programming skill. You are free to pick from any of the following code challenges:
+# Project description
 
-* [Simple Todo List](https://github.com/BroadnetEngineering/TodoList "Simple Todo List")
-* [Polling Application](https://github.com/BroadnetEngineering/PollingApp "Polling App")
-* [Text File Manipulation](https://github.com/BroadnetEngineering/TextFiles "Text File Manipulation")
-* [Event Application](https://github.com/BroadnetEngineering/EventApp "Event App")
-* Or, do something else of your choosing. Just follow the rules below and submit your PR to this repo!
+The following single page application is a sample todo list using the Vue CLI for quick scaffolding and Vuex for managing data between components. The app leverages Mirage JS with a backend mock schema allowing support for creating, reading, updating, and deleting todo list items within the application.
 
-### Rules
-* No server-side MVC frameworks (unless you make it)
-* Use MySQL if appropriate, include schema necessary to run your code
-* We want to be able to run your submission, not just look at the code
+## Project installation
 
-### Submissions
-* Submit your code as a PR to the repo of the project you chose
+There are a few dependencies added to the package manager simply run
+```
+npm install
+```
+
+### Compiles and hot-reloads for local development
+
+The following command allows a development server to run on a local port usually `localhost:8080`
+```
+npm run serve
+```
+
+## Contact information
+
+If there any questions about the project or for any coding explanations, I can be reached at johntmunger@gmail.com. Thank you for the opportunity and your time.
