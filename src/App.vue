@@ -1,28 +1,54 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="container">
+      <div class="justify-content-center">
+
+        <!-- jumbotron -->
+        <Description />
+
+        <!-- todo container -->
+        <div class="col-lg-12">
+          <div class="card px-3">
+              <div class="card-body">
+                <AddTodo />
+                <Todos />
+              </div>
+          </div>
+        </div>
+
+      </div>
   </div>
+</div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Description from './components/Description.vue'
+import Todos from './components/Todos.vue';
+import AddTodo from './components/AddTodo';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Description,
+    AddTodo,
+    Todos
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+dl, ol, ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+input {
+  margin-right: 10px;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+.container {
+  max-width: 940px;
+  margin: 0 auto;
 }
 </style>
