@@ -1,3 +1,7 @@
+// Mirage JS 
+// to help simulate API responses with route handlers
+// using Get, Post, Delete, and Patch mock schema
+
 import { Server } from 'miragejs';
 
 new Server({

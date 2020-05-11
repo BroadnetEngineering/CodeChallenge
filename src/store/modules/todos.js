@@ -1,3 +1,8 @@
+// Vuex store for data and state management. There are only a couple of components
+// that share state in this application, however I find it easier to work with
+// versus passing $emit events up and down between components
+// Using axios versus the fetch api for making requests, which is also a personal preference
+
 import axios from 'axios';
 
 const state = {
@@ -30,7 +35,6 @@ const actions = {
   async updateTodo({ commit }, id) {
     const response = await axios.patch(`/api/todos/${id}`);
 
-    console.log('UPDATE FROM STORE', response);
     commit('updTodo', response)
   }
 };
