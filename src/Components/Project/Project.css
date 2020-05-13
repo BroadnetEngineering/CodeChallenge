@@ -1,0 +1,19 @@
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid green;
+  padding: 2%;
+  margin: 2%;
+  border-radius: 10px;
+  padding-bottom: 4%;
+}
+
+#deleteBtn {
+  float: right;
+  background-color: peru;
+}
+
+#deleteBtn:hover {
+  background-color: brown;
+  color: white;
+}

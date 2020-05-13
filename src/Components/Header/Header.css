@@ -1,0 +1,13 @@
+#header {
+  background-color: rgb(252, 254, 254);
+  margin: 2%;
+  padding: 4%;
+  border: 1px solid grey;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#page_title{
+  width: 200px;
+}
